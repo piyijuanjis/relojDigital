@@ -1,0 +1,136 @@
+@media only screen and (min-width: 600px) {
+    /* Estilos para pantallas de 7" o más */
+  }
+
+
+body{
+background-image: url(pexels-david-besh-884788.jpg);
+background-size: 120% 140%;
+}
+
+.contact_form{  
+    border-color: #000000;
+    /*modificado en EV*/
+    margin:80px auto;
+    width: 400px; 
+    height: 387px;
+    border-radius: 10px;  
+    border: 1px solid;
+    background-color: white;
+    opacity:0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact_form--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: 1s;
+
+     
+}
+
+/*creado nuevo en EV*/
+.contact_form1--hide{
+    opacity: 0;
+    pointer-events: unset;
+
+}
+
+.header{
+    border: 1px solid;
+    border-color: #000000;
+    align-content: center;
+    background-color:darkgray;
+    font-size: 16px;  
+    text-align: center;  
+    color: #000000;
+    border-radius: 10px 10px 0px 0px; 
+    font-family: 'Fredoka One', sans-serif;
+
+}
+
+.footer{
+    border-color: #000000;
+    border: 1px solid;
+    font-size: 39px;   
+    background-color: darkgray;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.volverbtn{
+    height: 40px;  
+    background-color: lightgrey;  
+    border-style: none; 
+    border-radius: 10px;    
+    width: 150px;   
+    cursor: pointer;
+    color: white;
+}
+
+.estilobtn{
+    height: 5vh;
+    width: 10vh;
+    margin-top: 1vh;
+    margin-left: 7vh;
+    background-color: rgb(0, 0, 0); 
+    border-color: #000000; 
+    border-style: none; 
+    border-radius: 3vh;    
+    cursor: pointer;
+    align-items: center;
+    color: white;
+}
+
+.alarma2btn{
+    height: 5vh;
+    width: 13vh;
+    margin-top: 2vh;
+    margin-left: 23vh;
+    background-color: rgb(0, 0, 0); 
+    border-color: #000000; 
+    border-style: none; 
+    border-radius: 3vh;    
+    cursor: pointer;
+    align-items: center;
+    color: white;
+}
+
+.contact_form1{  
+    margin:25vh auto;
+    width: 60vh; 
+    height: 35vh;
+}
+
+.reloj { 
+    height: 5vh; 
+    padding-bottom: 5vh; 
+    border-radius: 3vh;
+    font: bold 8vh dotum, "lucida sans", arial;
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.fecha{
+    width: 50vh;
+    height: 4vh; 
+    border-radius: 3vh;
+    font: bold 2vh dotum, "lucida sans", arial;
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+    line-height: 4vh;
+}
+
